@@ -1,0 +1,10 @@
+{
+    "script": [
+        "ROOT=`pwd`",
+        "IFS='/' read -ra APP_PATH <<< $ROOT",
+        "ROOT_PATH=$(IFS=/ ; echo \"${APP_PATH[*]:0:5}\")",
+        "cd ${ROOT_PATH[0]} && rails console"
+    ],
+    "env": {},
+    "info": "Rails console started"
+}
