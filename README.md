@@ -11,5 +11,5 @@ Click Run -> Run With -> New Runner
 
 Copy and paste the RailsConsoleRunner.run to cloud 9
 
-Rename the file to `Active File — Rails Console` and save
+Rename the file to `Active File — Rails Console.run` and save
 
